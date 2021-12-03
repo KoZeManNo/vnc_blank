@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "VNC _blank",
+    "version": "0.1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.servercontrolpanel.de/SCP/Home?*", "*://*.servercontrolpanel.de/SCP/Home"],
+            "js": ["_blank.js"]
+        }
+    ]
+}
