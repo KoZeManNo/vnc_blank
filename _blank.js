@@ -5,4 +5,4 @@ document.addEventListener("transitionstart", () => {
         consoleButton.removeAttribute("onClick");
         consoleButton.setAttribute("target", "_blank");
     }
-})
+});
